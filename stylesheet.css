@@ -1,0 +1,350 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+
+html
+{
+	-webkit-font-smoothing: antialiased;
+	
+	font-smooth: auto;
+	font-family: 'NeueHaasGrotDisp-55Roman', 'Century Gothic', 'Tahoma', 'Ubuntu';
+	max-height: 100%;
+	height: 100%;
+}
+
+body
+{
+cursor: url:('Circle.ico');
+height: 100%;
+width: 100%;
+max-height: 100%;
+max-width: 100%;
+color: white;
+}
+
+
+
+#time
+{
+	top: 0px;
+	color: white;
+	font-family: 'NeueHaasGrotDisp-25XThin','Century Gothic', 'Arial';
+	font-size: 180px;
+	z-index: 2;
+	width: 100%;
+	text-shadow: 0px 0px 10px #666666;
+	
+}
+
+#time:hover
+{
+	opacity: 1;
+}
+
+#timebgs
+{
+	border: 1px solid black;
+	width: inherit;
+	background: black;
+	opacity: 0.3;
+	z-index: 0;
+	height: 80px;
+	
+}
+
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  
+  
+  
+}
+
+#greet
+{
+	font-size: 60px;
+	z-index: 2;
+	color: white;
+	font-family: 'NeueHaasGrotDisp-25XThin','Century Gothic','Arial';
+	font-weight: 400;
+	width: 100%;
+	opacity: .4;
+	text-shadow: 0px 0px 10px #666666;
+
+}
+
+#timegreet ul li
+{
+float: none;
+width: 99%;
+opacity: 0.8;
+}
+
+#ampm{
+	font-size: 30px;
+}
+
+@font-face {
+        font-family: NeueHaasGrotDisp-55Roman;
+        src: url(NeueHaasGrotDisp-55Roman.otf) format("opentype");
+    }
+    .NeueHaasGrotDisp-55Roman{
+        font-family: NeueHaasGrotDisp-55Roman;
+    }
+
+	@font-face {
+        font-family: NeueHaasGrotDisp-25XThin;
+        src: url(NeueHaasGrotDisp-25XThin.otf) format("opentype");
+    }
+    .NeueHaasGrotDisp-25XThin{
+        font-family: NeueHaasGrotDisp-25XThin,  Tahoma !important;
+    }
+	
+	
+	
+	
+	
+#bottombar ul li{
+color: black;
+background: white;
+opacity: 0.6;
+
+box-shadow: 0px 2px 5px #1c1c1c;
+font-size: 18px;
+float: none;
+margin-bottom: 5px;
+
+padding: 3px 3px 3px 3px;
+
+}
+
+#forecast_embed{
+	height: 220px;
+	width: 200px;
+	
+color: black;
+background: white;
+opacity: 0.6;
+
+box-shadow: 0px 2px 5px #1c1c1c;
+font-size: 12px;
+float: none;
+margin-bottom: 5px;
+
+padding: 3px 3px 3px 3px;
+
+}
+
+#bottombar tr td{
+margin-bottom: 5px;
+
+}
+#bottombar
+{
+display: inline-block;
+position: fixed;
+bottom: 10px;
+}
+
+#btn1
+{
+	position: fixed;
+	bottom: 0px;
+	right: 10px;
+	border-top: 1px dotted gray;
+	border-right:  1px dotted gray;
+	border-left:  1px dotted gray;
+	color: black;
+	font-size: 14pt;
+	text-decoration: none;
+	padding: 4px 4px 4px 4px;
+	background: white;
+	opacity: 0.5;
+	width: 120px;
+	height: 20px;
+}
+#bdtn1:hover
+{
+	opacity: 9;
+}
+
+
+.but {
+	-moz-box-shadow: 0px -2px 13px 2px #8a8a8a;
+	-webkit-box-shadow: 0px -2px 13px 2px #8a8a8a;
+	box-shadow: 0px -2px 13px 2px #8a8a8a;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9) );
+	background:-moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9');
+	background-color:#f9f9f9;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:180px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+	opacity: 0.7
+}
+.but:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9) );
+	background:-moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9');
+	background-color:#e9e9e9;
+}.but:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+#li1
+{
+width: 120px;
+}
+
+#li2
+{
+width: 200px;
+height: 16px;
+overflow: hidden;
+font-size: 16px;
+}
+
+#wm
+{
+	color:white;
+	text-decoration: none;
+	position: absolute;
+	top: 2px;
+	right: 5px;
+	font-size: 24px;
+	text-shadow: 0px 0px 3px #1c1c1c;
+	opacity: 0.4;
+}
+
+#ln1{
+	color: white;
+	width: 800px;
+	display:none;
+	
+}
+#sites{
+	width: 99%;
+	margin: 3px 3px 3px 3px;
+	padding: 3px 3px 3px 3px;
+	width: 50%;
+	position: absolute;
+	bottom: 0px;
+	
+}
+
+#sites td{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	font-weight: 100;
+	font-family: NeueHaasGrotDisp-25XThin;
+	background: white;
+	color: black;
+	opacity: 0.4;
+	border-radius: 6px 6px 6px 6px;
+	margin: 3px 3px 3px 3px;
+	text-decoration: none;
+	display: table;
+
+
+}
+
+#sites td a, #sites td a:visited{
+text-decoration: none;
+color: black;
+width: 500%;
+}
+
+#sites td:hover{
+opacity: 0.8;
+cursor: pointer;
+}
+
+#sites tr{
+margin: 3px 3px 3px 3px;
+padding: 3px 3px 3px 3px;
+
+}
+
+#sites table{
+
+    border-spacing: 30px;
+    border-collapse: separate;
+	
+	
+}
+
+#all{
+
+	}
+	
+#act td{
+	width: 370px;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 25px;
+	font-weight: 100;
+	font-family: NeueHaasGrotDisp-25XThin;
+	background: orange;
+	color: white;
+	opacity: 0.8;
+	border-radius: 6px 6px 6px 6px;
+	text-decoration: none;
+	display: table;
+	bottom: 70px;
+
+}	
+
+ #act td a, #act td a:visited{
+	text-decoration: none;
+ }
+ 
+ #act td:hover{
+	opacity: 1;
+	cursor: pointer;
+ }

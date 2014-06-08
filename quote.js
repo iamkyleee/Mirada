@@ -1,0 +1,1 @@
+document.writeln("<b>Thought of the Day:</b><br>As I have not worried to be born, I do not worry to die. -Federico García Lorca, poet, playwright, and painter (1898-1936)<br><font size=-1><i>from <a href=\"http://wordsmith.org/awad/landing.html?quote\">Wordsmith.org</a></i></font>");
